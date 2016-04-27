@@ -1,7 +1,6 @@
-Attribute VB_Name = "Module1"
 Function OnSumbolTrim(p_string As String, p_one_symbol As String)
  If (Len(p_one_symbol) > 1) Then
-    MsgBox ("Только один символ")
+    MsgBox ("РўРѕР»СЊРєРѕ РѕРґРёРЅ СЃРёРјРІРѕР»")
     OnSumbolTrim = p_string
     Exit Function
  End If
@@ -29,7 +28,7 @@ End Function
 Function OneSumbolCleaner(p_string As String, p_one_symbol As String)
 Dim v_two_symbols As String
  If (Len(p_one_symbol) > 1) Then
-    MsgBox ("Только один символ")
+    MsgBox ("РўРѕР»СЊРєРѕ РѕРґРёРЅ СЃРёРјРІРѕР»")
     OneSumbolCleaner = p_string
     Exit Function
  End If
